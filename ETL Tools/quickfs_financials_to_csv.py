@@ -1,14 +1,4 @@
-#PREREQUISITES
-#1. QuickFS is fee-based service that provides financials data. User registration is required for full access. 
-#2. Setup system variable
-
-#STEPS
-#1. update file_name to desired output directory
-#2. update tickers to desired ticker symbols
-#3. run
-
-#WARNING - scripts fails with certain tickers (e.g. AAPL). Those tickers to be identified and removed.
-#WARNING - For paid-subscription, there is a limit on how many records can be exported each day.
+# Working script 11/16
 
 import pandas as pd
 from quickfs import QuickFS as qf
@@ -17,11 +7,11 @@ import json
 
 
 # load the key 
-api_key = 'QUICKFS_SYS_VAR'
+api_key = '783afaac81792374538967ad9ef72226f07be115'
 client = qf(api_key)
 
 
-tickers = ['ALGN']
+tickers = ['ABNB','ADSK']
 #['ABNB', 'ADSK', 'ALGN', 'ADSK', 'ALGN', 'AMRS', 'AMZN', 'APPEF', 'ARAY', 'ASAN', 'AYX', 'BABA','BIDU','BMWYY','BYND','ACN', 
 #'CHGG', 'COIN', 'CRM', 'CSCO', 'DBX', 'DIS', 'DMLRY', 'EA', 'EB', 'F', 'FB', 'GE', 'GM', 'GOOG', 'HOOD', 'HPE', 'HPQ', 'HUBS', 'IBM', 
 #'INTC', 'INTU', 'ISRG', 'JAZZ', 'JNPR', 'LE', 'LYFT', 'MDB', 'ME', 'MSFT', 'NET', 'NEWR', 'NSIT', 'NFLX', 'NTNX', 'NTRA', 'NVDA', 'NVTA', 
@@ -75,7 +65,7 @@ tickers = ['ALGN']
 #,'QTNT','ENZ','CELC','XGN','DRIO','VNRX','AKU','AWH','BDSX','CNTG','STIM','ANIX','BIOQ','TTOO','NDRA','APDN','COPRF'
 #,'EDTXF','IBXXF','SQIDF','BIOC','CHEK','TOMDF','PMD','OPGN','GENE','CGNSF','PRPO','IDXG','CEMI','IZOZF','TRIB']
 
-# For testing purpose
+
 #metrics = ['period_end_date']
 
 # Selected metrics in the API resp = client.get_available_metrics()
