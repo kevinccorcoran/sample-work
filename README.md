@@ -44,7 +44,7 @@ Product Owner - Data Engineer	  Kevin Corcoran	  kevin.corcoran@hotmail.com
 3.	Create tables and Views.
 4.	Import .csv output to SQL
 
-## Database Structure**
+## Database Structure
 
 This ERD depicts the current database model.
 Blue cells : tables.
