@@ -43,7 +43,7 @@ Currently the database comprise data for around 200 companies. Data includes qua
 3.	Run Python tools to obtain .csv outputs (/sample-work/ETL Tools/).
     -	quickfs_financials_to_csv.py
     -	yfinance_pricing.py
-4.	Create tables and Views /sample-work/SQL/
+4.	Create SQL Tables and Views as follow (/sample-work/SQL/)
     1. Data
     2. Financials
     3. Historical
