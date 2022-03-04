@@ -15,8 +15,8 @@ Product Owner - Data Engineer	  Kevin Corcoran	  kevin.corcoran@hotmail.com
 
 # Contents
 
-•	Pre-requisite
-•	Tools & Technologies
+- Pre-requisite
+-	Tools & Technologies
 •	How to run the project
 •	Database Structure
 •	Future work
