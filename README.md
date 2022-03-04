@@ -25,11 +25,12 @@ Currently the database comprise data for around 200 companies. Data includes qua
 
 ## Pre-requisite:
 
--	Python [v 3.7 or greater] : https://www.python.org/downloads/
+-	Python [v 3.7 or greater]: https://www.python.org/downloads/
 -	Sublime Text [current build] : https://www.sublimetext.com
--	pgAdmin 4 [v 5.7 ] : https://www.pgadmin.org/download/
+-	pgAdmin 4 [v 5.7 ]: https://www.pgadmin.org/download/
 -	Set QUICKFS_SYS_VAR environment variable
 -	Subscribe to QuickFS https://quickfs.net/home
+-	Open Office Draw: https://www.openoffice.org/fr/Telecharger/
 
 ## Tools & Technologies
 
