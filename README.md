@@ -1,6 +1,6 @@
 # About the Project
 
-This project was started in the summer of 2021 with the goal of creating a database of financial data for publicly traded companies to help systematized and enhanced investment decision-making. The system is using logic developed around value-investing principles, rates of improvement for various metrics, and studies the relationship between them. 
+This project was started in the summer of 2021 with the goal of creating a database of financial data for publicly traded companies to help systematized and enhanced investment decision-making. The system is using logic developed around value-investing principles, measures rates of improvement for various metrics, and studies the relationship between them. 
 
 After 7 months of development, 2 ETLs tools were developed to easily extract big data from online databases for data refresh, and a robust Dev database was developed. Although more data engineering and data analytics is needed, the project has a clear path forward. 
 
@@ -10,8 +10,8 @@ Currently the database comprise data for around 200 companies. Data includes qua
 
 # Team Dynamic
 
-Roles	                          Name	            Email
-Product Owner - Data Engineer	  Kevin Corcoran	  kevin.corcoran@hotmail.com
+- Roles	                          - Name	          - Email
+- Product Owner/Data Engineer	  - Kevin Corcoran	  - kevin.corcoran@hotmail.com
 
 # Contents
 
