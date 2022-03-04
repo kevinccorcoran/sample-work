@@ -4,6 +4,8 @@ This project was started in the summer of 2021 with the goal of creating a datab
 
 After 7 months of development, 2 ETLs tools were developed to easily extract big data from online databases for data refresh, and a robust Dev database was developed. Although more data engineering and data analytics is needed, the project has a clear path forward. 
 
+This GitHub repository does not contain all the information necessary for the project; its main goal is to showcase some of the work accomplished. Additional  information can be provided and time for deep-dive code review can be scheduled.
+
 # High-level Metrics
 
 Currently the database comprise data for around 200 companies. Data includes quarterly data for financials ( Cash Flow statements, Income statements, Balance Sheet). And daily pricing info( High/Low, Open/Close, Volume).
