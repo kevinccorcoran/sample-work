@@ -52,20 +52,20 @@ Pink : materialized views
 Green : views
  
 
-•	Level 1 – Base Level
-  o	This level contains tables for the raw Financials and Pricing data. “DATA”.”DATA_QUATERLY_MASTER_STAGING” to be used for Financials data refresh. 
+-	Level 1 – Base Level
+  -	This level contains tables for the raw Financials and Pricing data. “DATA”.”DATA_QUATERLY_MASTER_STAGING” to be used for Financials data refresh. 
   
-•	Level 2 – Lower-Level Views
-  o	This level structures the data from each dataset. Pricing data is summed up by month then quarter, then joined to Financials data in “ANALYTICS”.”        vQUARTERLY_MASTER_TTM_MATERIALIZED” . Data is then aggregated as follow:
-    	Year 1 : current quarter + its 3 most recent quarters
-    	Year 2 : current quarter 1 year ago + its 3 most recent quarters
-    	Year 3 …..
+-	Level 2 – Lower-Level Views
+  -	This level structures the data from each dataset. Pricing data is summed up by month then quarter, then joined to Financials data in “ANALYTICS”.”        vQUARTERLY_MASTER_TTM_MATERIALIZED” . Data is then aggregated as follow:
+    -	Year 1 : current quarter + its 3 most recent quarters
+    -	Year 2 : current quarter 1 year ago + its 3 most recent quarters
+    -	Year 3 …..
     
-•	Level 3 – Mid-level Views
-  o This level segregates various variables for analysis.
+-	Level 3 – Mid-level Views
+  - This level segregates various variables for analysis.
 
-•	Level 4 – Top-level Views
-  o	This level is used for data interpretation.
+-	Level 4 – Top-level Views
+  -	This level is used for data interpretation.
 
 **Future work**
 
