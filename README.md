@@ -18,7 +18,7 @@ Product Owner - Data Engineer	  Kevin Corcoran	  kevin.corcoran@hotmail.com
 - Pre-requisite
 -	Tools & Technologies
 -	How to run the project
--	Database Structure
+-	Database Schema
 -	Future work
 -	Things to consider
 -	Discussions
@@ -44,12 +44,12 @@ Product Owner - Data Engineer	  Kevin Corcoran	  kevin.corcoran@hotmail.com
 3.	Create tables and Views.
 4.	Import .csv output to SQL
 
-## Database Structure
+## Database Schema
 
-This ERD depicts the current database model.
-Blue cells : tables.
-Pink : materialized views
-Green : views
+This ERD depicts the current database schema for the Dev database. Schema will change. 
+- Blue cells : tables.
+- Pink : materialized views
+- Green : views
 
 ![image](https://i.postimg.cc/hPNGgY47/ERD-dev-v3.png)
 
