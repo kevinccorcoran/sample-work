@@ -51,6 +51,7 @@ Blue cells : tables.
 Pink : materialized views
 Green : views
  
+![alt text](https://ibb.co/Mn8Yf1x)
 
 -	Level 1 – Base Level
     - This level contains tables for the raw Financials and Pricing data. “DATA”.”DATA_QUATERLY_MASTER_STAGING” to be used for Financials data refresh. 
