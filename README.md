@@ -11,7 +11,7 @@ Currently the database comprise data for around 200 companies. Data includes qua
 # Team Dynamic
 
 - Roles	                          - Name	          - Email
-- Product Owner - Data Engineer	  - Kevin Corcoran	  - kevin.corcoran@hotmail.com
+- Product Owner/Data Engineer	  - Kevin Corcoran	  - kevin.corcoran@hotmail.com
 
 # Contents
 
