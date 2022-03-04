@@ -38,12 +38,21 @@ Currently the database comprise data for around 200 companies. Data includes qua
 
 ## How to run the project
 
-1.	Complete pre-requisites
-2.	Run Python tools to obtain .csv outputs
+1.	Go through pre-requisites
+2.	Review ERD (/sample-work/Documents/ERD_dev_v3.odg)
+3.	Run Python tools to obtain .csv outputs (/sample-work/ETL Tools/).
     -	quickfs_financials_to_csv.py
     -	yfinance_pricing.py
-3.	Create tables and Views.
-4.	Import .csv output to SQL
+4.	Create tables and Views /sample-work/SQL/
+    1. Data
+    2. Financials
+    3. Historical
+    4. Analytics
+6.	Import .csv output to SQL.
+
+## GitHub Content
+
+- /sample-work/ETL Tools/
 
 ## Database Schema
 
