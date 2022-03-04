@@ -37,12 +37,12 @@ Product Owner - Data Engineer	  Kevin Corcoran	  kevin.corcoran@hotmail.com
 
 ## How to run the project
 
--	Complete pre-requisites
--	Run Python tools to obtain .csv outputs
-  -	quickfs_financials_to_csv.py
-  -	yfinance_pricing.py
--	Create tables and Views.
--	Import .csv output to SQL
+1.	Complete pre-requisites
+2.	Run Python tools to obtain .csv outputs
+    -	quickfs_financials_to_csv.py
+    -	yfinance_pricing.py
+3.	Create tables and Views.
+4.	Import .csv output to SQL
 
 ## Database Structure**
 
