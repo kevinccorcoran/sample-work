@@ -31,11 +31,11 @@ Product Owner - Data Engineer	  Kevin Corcoran	  kevin.corcoran@hotmail.com
 -	Set QUICKFS_SYS_VAR environment variable
 -	Subscribe to QuickFS https://quickfs.net/home
 
-## Tools & Technologies**
+## Tools & Technologies
 
 -	Python3 and PostgreSQL (language)
 
-## How to run the project**
+## How to run the project
 
 -	Complete pre-requisites
 -	Run Python tools to obtain .csv outputs
