@@ -1,8 +1,8 @@
 # About the Project
 
-This project was started in the summer of 2021 with the goal of creating a database of financial data for publicly traded companies to help systematized and enhanced investment decision-making. The system is using algorithm developed around value-investing principles and examines rates of improvement for various metrics.
+This project was started in the summer of 2021 with the goal of creating a database of financial data for publicly traded companies to help systematized and enhanced investment decision-making. The system is using logic developed around value-investing principles, rates of improvement for various metrics, and studies the relationship between them. 
 
-After 7 months of development 2 ETLs tools were developed to easily extract data from online databases, a robust Dev database was developed, and the project has a clear path forward. 
+After 7 months of development, 2 ETLs tools were developed to easily extract big data from online databases for data refresh, and a robust Dev database was developed. Although more data engineering and data analytics is needed, the project has a clear path forward. 
 
 # High-level Metrics
 
