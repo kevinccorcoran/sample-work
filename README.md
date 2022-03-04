@@ -1,4 +1,4 @@
-******About the Project******
+# About the Project
 
 This project was started in the summer of 2021 with the goal of creating a database of financial data for publicly traded companies to help systematized and enhanced investment decision-making. The system is using algorithm developed around value-investing principles and examines rates of improvement for various metrics.
 
