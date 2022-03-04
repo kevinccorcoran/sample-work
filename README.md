@@ -31,11 +31,11 @@ Product Owner - Data Engineer	  Kevin Corcoran	  kevin.corcoran@hotmail.com
 -	Set QUICKFS_SYS_VAR environment variable
 -	Subscribe to QuickFS https://quickfs.net/home
 
-**Tools & Technologies**
+## Tools & Technologies**
 
 -	Python3 and PostgreSQL (language)
 
-**How to run the project**
+## How to run the project**
 
 -	Complete pre-requisites
 -	Run Python tools to obtain .csv outputs
@@ -44,7 +44,7 @@ Product Owner - Data Engineer	  Kevin Corcoran	  kevin.corcoran@hotmail.com
 -	Create tables and Views.
 -	Import .csv output to SQL
 
-**Database Structure**
+## Database Structure**
 
 This ERD depicts the current database model.
 Blue cells : tables.
@@ -67,14 +67,14 @@ Green : views
 -	Level 4 – Top-level Views
   -	This level is used for data interpretation.
 
-**Future work**
+## Future work
 
 -	Complete views in Level 3 (est. 30h)
 -	Analyze data Level 4
 -	Develop additional views (e.g. ROE, ect) in Level 3 (est. 12h each)
 -	Rethink database structure
 
-**Things to consider**
+## Things to consider
 
 -	In lower levels use standard Views instead of materialized
 -	Automate data refresh (scheduled tasks or psycopg2)
@@ -82,4 +82,4 @@ Green : views
 -	Develop visual reports
 -	Why does quickfs_financials_to_csv.py fails for certain companies (i.e. AAPL)
 
-**Discussion:**
+## Discussion:
