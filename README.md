@@ -8,7 +8,7 @@ After 7 months of development 2 ETLs tools were developed to easily extract data
 
 Currently the database comprise data for around 200 companies. Data includes quarterly data for financials ( Cash Flow statements, Income statements, Balance Sheet). And daily pricing info( High/Low, Open/Close, Volume).
 
-# TEAM DYNAMIC
+# Team Dynamic
 
 Roles	                          Name	            Email
 Product Owner - Data Engineer	  Kevin Corcoran	  kevin.corcoran@hotmail.com
@@ -21,7 +21,7 @@ Product Owner - Data Engineer	  Kevin Corcoran	  kevin.corcoran@hotmail.com
 •	Database Structure
 •	Future work
 •	Things to consider
-•	Discussions 
+•	Discussions
 
 ## Pre-requisite:
 
