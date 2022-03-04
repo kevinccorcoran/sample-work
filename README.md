@@ -17,32 +17,32 @@ Product Owner - Data Engineer	  Kevin Corcoran	  kevin.corcoran@hotmail.com
 
 - Pre-requisite
 -	Tools & Technologies
-•	How to run the project
-•	Database Structure
-•	Future work
-•	Things to consider
-•	Discussions
+-	How to run the project
+-	Database Structure
+-	Future work
+-	Things to consider
+-	Discussions
 
 ## Pre-requisite:
 
-•	Python [v 3.7 or greater] : https://www.python.org/downloads/
-•	Sublime Text [current build] : https://www.sublimetext.com
-•	pgAdmin 4 [v 5.7 ] : https://www.pgadmin.org/download/
-•	Set QUICKFS_SYS_VAR environment variable
-•	Subscribe to QuickFS https://quickfs.net/home
+-	Python [v 3.7 or greater] : https://www.python.org/downloads/
+-	Sublime Text [current build] : https://www.sublimetext.com
+-	pgAdmin 4 [v 5.7 ] : https://www.pgadmin.org/download/
+-	Set QUICKFS_SYS_VAR environment variable
+-	Subscribe to QuickFS https://quickfs.net/home
 
 **Tools & Technologies**
 
-•	Python3 and PostgreSQL (language)
+-	Python3 and PostgreSQL (language)
 
 **How to run the project**
 
-•	Complete pre-requisites
-•	Run Python tools to obtain .csv outputs
-  o	quickfs_financials_to_csv.py
-  o	yfinance_pricing.py
-•	Create tables and Views.
-•	Import .csv output to SQL
+-	Complete pre-requisites
+-	Run Python tools to obtain .csv outputs
+  -	quickfs_financials_to_csv.py
+  -	yfinance_pricing.py
+-	Create tables and Views.
+-	Import .csv output to SQL
 
 **Database Structure**
 
