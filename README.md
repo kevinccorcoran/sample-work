@@ -50,8 +50,8 @@ This ERD depicts the current database model.
 Blue cells : tables.
 Pink : materialized views
 Green : views
- 
-![alt text](https://ibb.co/Mn8Yf1x)
+
+![image](https://i.ibb.co/fM8h9Nz/ERD-dev-v3.png)
 
 -	Level 1 – Base Level
     - This level contains tables for the raw Financials and Pricing data. “DATA”.”DATA_QUATERLY_MASTER_STAGING” to be used for Financials data refresh. 
