@@ -69,17 +69,17 @@ Green : views
 
 **Future work**
 
-•	Complete views in Level 3 (est. 30h)
-•	Analyze data Level 4
-•	Develop additional views (e.g. ROE, ect) in Level 3 (est. 12h each)
-•	Rethink database structure
+-	Complete views in Level 3 (est. 30h)
+-	Analyze data Level 4
+-	Develop additional views (e.g. ROE, ect) in Level 3 (est. 12h each)
+-	Rethink database structure
 
 **Things to consider**
 
-•	In lower levels use standard Views instead of materialized
-•	Automate data refresh (scheduled tasks or psycopg2)
-•	Create automated test-cases 
-•	Develop visual reports
-•	Why does quickfs_financials_to_csv.py fails for certain companies (i.e. AAPL)
+-	In lower levels use standard Views instead of materialized
+-	Automate data refresh (scheduled tasks or psycopg2)
+-	Create automated test-cases 
+-	Develop visual reports
+-	Why does quickfs_financials_to_csv.py fails for certain companies (i.e. AAPL)
 
 **Discussion:**
