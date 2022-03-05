@@ -1,14 +1,14 @@
 # About the Project
 
-This project was started in the summer of 2021 with the goal of creating a database of financial data for publicly traded companies to help systematized and enhanced investment decision-making. The system is using logic developed around value-investing principles, measures rates of improvement for various metrics, and studies the relationship between them. 
+This project was started in the summer of 2021 with the goal of creating a database of financial data for publicly traded companies to systematize and enhance investment decision-making. The logic was developed around value-investing principles and measurements of rates of improvement for various metrics, and studies the relationship between them. 
 
-After 7 months of development, 2 ETLs tools were developed to easily extract big data from online databases for data refresh, and a robust Dev database was developed. Although more data engineering and data analytics is needed, the project has a clear path forward. 
+After 7 months of development 2 ETLs tools were developed to extract big data from online databases for easy data refresh, and a robust Dev database was developed. Although more data engineering and data analytics is needed, the project has a clear path forward. 
 
-This GitHub repository does not contain all the information necessary for the project; its main goal is to showcase some of the work accomplished. Additional  information can be provided and time for deep-dive code review can be scheduled.
+Note: this GitHub repository contains the 2 ETLs tools, some of the SQL views and tables, and project documemts to showcase some of the work acomplished. Not all the project files are included. Additional information can be provided. .
 
 # High-level Metrics
 
-Currently the database comprise data for around 200 companies. Data includes quarterly data for financials ( Cash Flow statements, Income statements, Balance Sheet). And daily pricing info( High/Low, Open/Close, Volume).
+Currently the DEv database comprise data for around 200 companies. Data includes quarterly data for financials ( Cash Flow statements, Income statements, Balance Sheet). And daily pricing info( High/Low, Open/Close, Volume).
 
 # Team Dynamic
 
@@ -72,8 +72,8 @@ This ERD depicts the current database schema for the Dev database. Schema will c
 -	Level 2 – Lower-Level Views
     - This level structures the data from each dataset. Pricing data is summed up by month then quarter, then joined to Financials data in “ANALYTICS”.”        vQUARTERLY_MASTER_TTM_MATERIALIZED” . Data is then aggregated as follow:
       - Year 1 : current quarter + its 3 most recent quarters
-      -	Year 2 : current quarter 1 year ago + its 3 most recent quarters
-      -	Year 3 …..
+      - Year 2 : current quarter 1 year ago + its 3 most recent quarters
+      - Year 3 …..
     
 -	Level 3 – Mid-level Views
     - This level segregates various variables for analysis.
