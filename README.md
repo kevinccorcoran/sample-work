@@ -1,3 +1,7 @@
+# About this repo
+
+This repo is a portfolio of a fraction of the work I have accomplished from September 2022 until present and aims at showcasing my technical skills to the reader.  
+
 # About the Project
 
 This project was started in the summer of 2021 with the goal of creating a database of financial data for publicly traded companies to systematize and enhance investment decision-making. The logic was developed around value-investing principles and measurements of rates of improvement for various metrics, and studies the relationship between them. 
